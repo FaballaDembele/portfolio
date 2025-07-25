@@ -29,6 +29,7 @@ def main():
         "Fonctionnalités Avancées": advanced_features
     }
     show_loading()
+    
     pages[selection]()
     
 
