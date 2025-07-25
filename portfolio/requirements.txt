@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+tensorflow
+statsmodels
+seaborn
+matplotlib
+streamlit-option-menu
+```
