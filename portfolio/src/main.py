@@ -28,8 +28,9 @@ def main():
         "Prévision": forecasting,
         "Fonctionnalités Avancées": advanced_features
     }
-    pages[selection]()
     show_loading()
+    pages[selection]()
+    
 
 if __name__ == "__main__":
     main()

@@ -5,9 +5,9 @@ import streamlit as st
 def load_data(file):
     return pd.read_csv(file, delimiter=",", encoding='utf-8')
 
-# def show_loading():
-#     """Displays a loading page and then disappears."""
-#     placeholder = st.empty()
+def show_loading():
+    """Displays a loading page and then disappears."""
+    placeholder = st.empty()
 
     placeholder.markdown(
         """
